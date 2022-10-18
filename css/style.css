@@ -922,6 +922,9 @@ header {
   .work-cont-relative {
     height: 250px;
   }
+  .work-pargh{
+    margin-bottom: 20px;
+  }
 }
 /*                              work-section                    */
 /*                              news-section                    */
