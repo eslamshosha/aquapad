@@ -73,16 +73,16 @@ img {
   color: rgba(255, 255, 255, 100);
   background-image: linear-gradient(
     135deg,
-    var(--main-color),
-    var(--main-hover)
+    var(--main-hover),
+    var(--main-color)
   );
   /* border-radius: 4px 4px 4px 4px; */
 }
 html[dir="ltr"] .progress-bar {
   background-image: linear-gradient(
     135deg,
-    var(--main-hover),
-    var(--main-color)
+    var(--main-color),
+    var(--main-hover)
   );
 }
 @keyframes progress {
