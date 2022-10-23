@@ -616,7 +616,7 @@ header {
     width: 90px;
     height: 90px;
   }
-  .category-box{
+  .category-box {
     font-size: 16px;
   }
   .category-box i {
@@ -675,6 +675,10 @@ header {
   }
   .cooling-cont {
     padding: 50px 0;
+    align-items: center;
+  }
+  .cooling-pargh {
+    text-align: center;
   }
   .cooling-head {
     font-size: 20px;
@@ -922,7 +926,7 @@ header {
   .work-cont-relative {
     height: 250px;
   }
-  .work-pargh{
+  .work-pargh {
     margin-bottom: 20px;
   }
 }
