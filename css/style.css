@@ -266,7 +266,7 @@ header {
   display: none;
 }
 .logo-sm img {
-  max-width: 65px;
+  max-width: 190px;
 }
 .nav-header figure {
   margin: 0;
@@ -475,12 +475,14 @@ header {
     min-height: 250px;
   }
   .caption-title {
-    font-size: 20px;
+    font-size: 24px;
+    margin-bottom: 15px;
   }
   .caption-pargh {
     font-size: 14px;
     margin-bottom: 15px;
     padding: 0 20px;
+    display: none;
   }
   .caption-link {
     width: 130px;
@@ -1129,7 +1131,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   padding-bottom: 60px;
   margin-bottom: 70px;
 }
@@ -1409,7 +1411,7 @@ html[dir="rtl"] .footer-accordion.active:after {
   }
   .social {
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
   }
   .contact-ancor i {
     width: 45px;
@@ -1424,7 +1426,7 @@ html[dir="rtl"] .footer-accordion.active:after {
   }
   .nav-foot-cont {
     text-align: start;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
   }
   .nav-foot-header {
     text-align: center;
@@ -1439,7 +1441,7 @@ html[dir="rtl"] .footer-accordion.active:after {
     text-align: center;
   }
   .copy-flex {
-    padding-top: 40px;
+    padding-top: 30px;
     justify-content: center;
     flex-direction: column;
   }
@@ -1457,7 +1459,7 @@ html[dir="rtl"] .footer-accordion.active:after {
     max-width: 135px;
   }
   .logo-sm img {
-    max-width: 40px;
+    max-width: 110px;
   }
   .nav-header {
     padding: 15px 0;
@@ -1558,6 +1560,7 @@ html[dir="rtl"] .footer-accordion.active:after {
     justify-content: center;
     align-items: center;
     font-weight: 700;
+    font-size: 20px;
   }
   /*                    menu in phone size                      */
 }
